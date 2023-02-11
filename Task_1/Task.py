@@ -9,8 +9,8 @@
 # -> 1
 
 
-n = int(input("Введите количество элементов в массиве: "))
 import random
+n = int(input("Введите количество элементов в массиве: "))
 list = [random.randrange(0, 10) for i in range(n)]
 print(list)
 x = int(input("Введите искомое число: "))
